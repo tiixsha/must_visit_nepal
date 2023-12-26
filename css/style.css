@@ -43,3 +43,70 @@ nav{
 .menu a:hover{
     color: brown;
 }
+#banner{}
+#banner img{
+    width: 100%;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: black;
+    color:whitesmoke;
+    padding:30px 100px;
+    opacity: 0.6;
+    font-family: 'poppins';
+    text-align: center;
+    font-size: large;
+}
+.info h2{
+    font-family: 'poppins';
+    font-size: 30px;
+}
+.info h{
+    font-family:'poppins';
+    font-size: 18px;
+}
+#feature{
+    padding:30px 0;
+    text-align:center;
+}
+#feature h3{
+    font-family:'poppins';
+    display: inline-block;
+    color: brown;
+    font-size: 38px;
+    text-align: center;
+}
+.boxes{
+    padding: 30px;
+    display:flex;
+}
+.box{
+    width: 30%;
+    position: relative;
+}
+.box img{
+    width:100%;
+    height:400px;
+}
+.box h4{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0.8;
+}
+.box h4 a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 24 px;
+    font-family:'poppins';
+}
+.box h4 a:hover{
+    color: brown;
+}
