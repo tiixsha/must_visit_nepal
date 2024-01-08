@@ -21,10 +21,10 @@ header{
 header h1{
 font-family:'poppins';
 font-size: 30px;
-color: brown
+color: rgb(96, 18, 18);
 }
 nav{
-    background-color: burlywood;
+    background-color:#091632;
 }
 .menu{
     padding: 15px 0;
@@ -41,7 +41,7 @@ nav{
     padding-left: 0;
 }
 .menu a:hover{
-    color: brown;
+    color: lightblue;
 }
 #banner{}
 #banner img{
@@ -109,4 +109,152 @@ nav{
 }
 .box h4 a:hover{
     color: brown;
+}
+#newsletter{
+    padding: 100px,0;
+    background-image:url(/images/pexels-eric-sanman-5111271.jpg)
+}
+#newsletter form{
+    display: block;
+    text-align: center;
+}
+#newsletter input[type=text]{
+    padding: 5px;
+    width: 250px;
+    border:black;
+    outline: none;
+    font-family:'poppins';
+}
+#newsletter input[type=submit]{
+    padding: 5px;
+    background-color:burlywood;
+    border:none;
+    cursor: pointer;
+    color:black;
+}
+#newsletter h5{
+    color:rgb(32, 4, 4);
+    font-size: 24px;
+    font-family: 'poppins';
+    padding-bottom: 10px;
+
+}
+footer{
+    padding:30px;
+}
+.fboxes{
+    display: flex;
+}
+.fbox{
+    width:23%;
+}
+.fbox h6{
+    font-size: 18px;
+    font-family:'poppins';
+    padding-bottom: 10px;
+    color:black;
+}
+.fbox ul{
+    list-style: none;
+}
+.fbox ul li{
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+}
+.fbox ul li a{
+    text-decoration: none;
+    font-family:'poppins';
+    font-size: 16px;
+}
+#content{
+    padding:30px 0;
+}
+#content h2{
+    font-family: 'poppins';
+    font-size: 30px;
+    color:rgb(45, 0, 0);
+    margin-bottom: 10px;
+}
+.Days{
+    background-color: burlywood;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Medium{
+    background-color: burlywood;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Nature{
+    background-color: burlywood;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Itinerary{
+    width: 60%;
+
+}
+#content img{
+    text-align:left;
+    display: block;
+    margin: 20px 0;
+    width:100%;
+}
+     .Itinerary h4{
+         font-family: 'poppins';
+         font-size: 20px;
+         padding: 10px 0;
+     }
+     .Itinerary p{
+         font-family: 'poppins';
+         font-size: 16px;
+     }
+     .book{
+         background-color: seagreen;
+         color: white;
+         padding:10px 20px;
+         font-family:'poppins';
+         font-size: 16px;
+         display: inline-block;
+         text-decoration: none;
+     }
+.contact_boxes{
+    display: flex;
+}
+.map,.form{
+    width:50%;
+}
+.form{
+    padding: 0 20px;
+}
+.form h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form label{
+    display: block;
+    margin:5px 0;
+   font-family:'poppins';
+    font-size: 15px;
+}
+.form input{
+    padding: 10px;
+    width: 100%;
+}
+.form textarea{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+.form input[type=submit]{
+    padding: 10px 20px;
+    width: 100px;
+    margin-top: 10px;
 }
